@@ -143,8 +143,7 @@ y_pred= clf.predict(X_test)
 
 test2=pd.read_csv('C:\\Users\\SARAH\\\\test (1).csv')
 
-submission= pd.DataFrame()
-submission['PassengerId'] = test2['PassengerId']
-submission['Survived'] = y_pred
-submission = submission.iloc[:-1,:]
-submission.to_csv('Predictions.csv', index=False)
+submission2= pd.DataFrame()
+submission2['PassengerId'] = test2['PassengerId']
+submission2['Survived'] = y_pred
+submission.to_csv('Predictions2.csv', index=False)
