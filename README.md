@@ -1,5 +1,4 @@
-# SCAMP-Assesment-
-She Codes Africa Mentorship Program Assessment Project.
+# Kaggle Titanic Project-
  
 This repo contains predictions of the kaggle Titanic dataset
 using machine learning techniques. 
